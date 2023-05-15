@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7080849B2A121BE300FF933A /* swiftBotcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7080849A2A121BE300FF933A /* swiftBotcampApp.swift */; };
+		7080849D2A121BE300FF933A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7080849C2A121BE300FF933A /* ContentView.swift */; };
+		7080849F2A121BE500FF933A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7080849E2A121BE500FF933A /* Assets.xcassets */; };
+		708084A22A121BE500FF933A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 708084A12A121BE500FF933A /* Preview Assets.xcassets */; };
+		708084AC2A121BE500FF933A /* swiftBotcampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708084AB2A121BE500FF933A /* swiftBotcampTests.swift */; };
+		708084B62A121BE500FF933A /* swiftBotcampUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708084B52A121BE500FF933A /* swiftBotcampUITests.swift */; };
+		708084B82A121BE500FF933A /* swiftBotcampUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708084B72A121BE500FF933A /* swiftBotcampUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		708084A82A121BE500FF933A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7080848F2A121BE300FF933A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 708084962A121BE300FF933A;
+			remoteInfo = swiftBotcamp;
+		};
+		708084B22A121BE500FF933A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7080848F2A121BE300FF933A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 708084962A121BE300FF933A;
+			remoteInfo = swiftBotcamp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		708084972A121BE300FF933A /* swiftBotcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftBotcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7080849A2A121BE300FF933A /* swiftBotcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftBotcampApp.swift; sourceTree = "<group>"; };
+		7080849C2A121BE300FF933A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7080849E2A121BE500FF933A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		708084A12A121BE500FF933A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		708084A72A121BE500FF933A /* swiftBotcampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftBotcampTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		708084AB2A121BE500FF933A /* swiftBotcampTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftBotcampTests.swift; sourceTree = "<group>"; };
+		708084B12A121BE500FF933A /* swiftBotcampUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftBotcampUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		708084B52A121BE500FF933A /* swiftBotcampUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftBotcampUITests.swift; sourceTree = "<group>"; };
+		708084B72A121BE500FF933A /* swiftBotcampUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftBotcampUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		708084942A121BE300FF933A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		708084A42A121BE500FF933A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		708084AE2A121BE500FF933A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7080848E2A121BE300FF933A = {
+			isa = PBXGroup;
+			children = (
+				708084992A121BE300FF933A /* swiftBotcamp */,
+				708084AA2A121BE500FF933A /* swiftBotcampTests */,
+				708084B42A121BE500FF933A /* swiftBotcampUITests */,
+				708084982A121BE300FF933A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		708084982A121BE300FF933A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				708084972A121BE300FF933A /* swiftBotcamp.app */,
+				708084A72A121BE500FF933A /* swiftBotcampTests.xctest */,
+				708084B12A121BE500FF933A /* swiftBotcampUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		708084992A121BE300FF933A /* swiftBotcamp */ = {
+			isa = PBXGroup;
+			children = (
+				7080849A2A121BE300FF933A /* swiftBotcampApp.swift */,
+				7080849C2A121BE300FF933A /* ContentView.swift */,
+				7080849E2A121BE500FF933A /* Assets.xcassets */,
+				708084A02A121BE500FF933A /* Preview Content */,
+			);
+			path = swiftBotcamp;
+			sourceTree = "<group>";
+		};
+		708084A02A121BE500FF933A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				708084A12A121BE500FF933A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		708084AA2A121BE500FF933A /* swiftBotcampTests */ = {
+			isa = PBXGroup;
+			children = (
+				708084AB2A121BE500FF933A /* swiftBotcampTests.swift */,
+			);
+			path = swiftBotcampTests;
+			sourceTree = "<group>";
+		};
+		708084B42A121BE500FF933A /* swiftBotcampUITests */ = {
+			isa = PBXGroup;
+			children = (
+				708084B52A121BE500FF933A /* swiftBotcampUITests.swift */,
+				708084B72A121BE500FF933A /* swiftBotcampUITestsLaunchTests.swift */,
+			);
+			path = swiftBotcampUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		708084962A121BE300FF933A /* swiftBotcamp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 708084BB2A121BE500FF933A /* Build configuration list for PBXNativeTarget "swiftBotcamp" */;
+			buildPhases = (
+				708084932A121BE300FF933A /* Sources */,
+				708084942A121BE300FF933A /* Frameworks */,
+				708084952A121BE300FF933A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = swiftBotcamp;
+			productName = swiftBotcamp;
+			productReference = 708084972A121BE300FF933A /* swiftBotcamp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		708084A62A121BE500FF933A /* swiftBotcampTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 708084BE2A121BE500FF933A /* Build configuration list for PBXNativeTarget "swiftBotcampTests" */;
+			buildPhases = (
+				708084A32A121BE500FF933A /* Sources */,
+				708084A42A121BE500FF933A /* Frameworks */,
+				708084A52A121BE500FF933A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				708084A92A121BE500FF933A /* PBXTargetDependency */,
+			);
+			name = swiftBotcampTests;
+			productName = swiftBotcampTests;
+			productReference = 708084A72A121BE500FF933A /* swiftBotcampTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		708084B02A121BE500FF933A /* swiftBotcampUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 708084C12A121BE500FF933A /* Build configuration list for PBXNativeTarget "swiftBotcampUITests" */;
+			buildPhases = (
+				708084AD2A121BE500FF933A /* Sources */,
+				708084AE2A121BE500FF933A /* Frameworks */,
+				708084AF2A121BE500FF933A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				708084B32A121BE500FF933A /* PBXTargetDependency */,
+			);
+			name = swiftBotcampUITests;
+			productName = swiftBotcampUITests;
+			productReference = 708084B12A121BE500FF933A /* swiftBotcampUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7080848F2A121BE300FF933A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					708084962A121BE300FF933A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					708084A62A121BE500FF933A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 708084962A121BE300FF933A;
+					};
+					708084B02A121BE500FF933A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 708084962A121BE300FF933A;
+					};
+				};
+			};
+			buildConfigurationList = 708084922A121BE300FF933A /* Build configuration list for PBXProject "swiftBotcamp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7080848E2A121BE300FF933A;
+			productRefGroup = 708084982A121BE300FF933A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				708084962A121BE300FF933A /* swiftBotcamp */,
+				708084A62A121BE500FF933A /* swiftBotcampTests */,
+				708084B02A121BE500FF933A /* swiftBotcampUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		708084952A121BE300FF933A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				708084A22A121BE500FF933A /* Preview Assets.xcassets in Resources */,
+				7080849F2A121BE500FF933A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		708084A52A121BE500FF933A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		708084AF2A121BE500FF933A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		708084932A121BE300FF933A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7080849D2A121BE300FF933A /* ContentView.swift in Sources */,
+				7080849B2A121BE300FF933A /* swiftBotcampApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		708084A32A121BE500FF933A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				708084AC2A121BE500FF933A /* swiftBotcampTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		708084AD2A121BE500FF933A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				708084B62A121BE500FF933A /* swiftBotcampUITests.swift in Sources */,
+				708084B82A121BE500FF933A /* swiftBotcampUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		708084A92A121BE500FF933A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 708084962A121BE300FF933A /* swiftBotcamp */;
+			targetProxy = 708084A82A121BE500FF933A /* PBXContainerItemProxy */;
+		};
+		708084B32A121BE500FF933A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 708084962A121BE300FF933A /* swiftBotcamp */;
+			targetProxy = 708084B22A121BE500FF933A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		708084B92A121BE500FF933A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		708084BA2A121BE500FF933A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		708084BC2A121BE500FF933A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"swiftBotcamp/Preview Content\"";
+				DEVELOPMENT_TEAM = DA42MCR9GG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Moalsayyed.swiftBotcamp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		708084BD2A121BE500FF933A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"swiftBotcamp/Preview Content\"";
+				DEVELOPMENT_TEAM = DA42MCR9GG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Moalsayyed.swiftBotcamp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		708084BF2A121BE500FF933A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DA42MCR9GG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Moalsayyed.swiftBotcampTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swiftBotcamp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/swiftBotcamp";
+			};
+			name = Debug;
+		};
+		708084C02A121BE500FF933A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DA42MCR9GG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Moalsayyed.swiftBotcampTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swiftBotcamp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/swiftBotcamp";
+			};
+			name = Release;
+		};
+		708084C22A121BE500FF933A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DA42MCR9GG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Moalsayyed.swiftBotcampUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = swiftBotcamp;
+			};
+			name = Debug;
+		};
+		708084C32A121BE500FF933A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DA42MCR9GG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Moalsayyed.swiftBotcampUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = swiftBotcamp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		708084922A121BE300FF933A /* Build configuration list for PBXProject "swiftBotcamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				708084B92A121BE500FF933A /* Debug */,
+				708084BA2A121BE500FF933A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		708084BB2A121BE500FF933A /* Build configuration list for PBXNativeTarget "swiftBotcamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				708084BC2A121BE500FF933A /* Debug */,
+				708084BD2A121BE500FF933A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		708084BE2A121BE500FF933A /* Build configuration list for PBXNativeTarget "swiftBotcampTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				708084BF2A121BE500FF933A /* Debug */,
+				708084C02A121BE500FF933A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		708084C12A121BE500FF933A /* Build configuration list for PBXNativeTarget "swiftBotcampUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				708084C22A121BE500FF933A /* Debug */,
+				708084C32A121BE500FF933A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7080848F2A121BE300FF933A /* Project object */;
+}
